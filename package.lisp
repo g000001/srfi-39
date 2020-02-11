@@ -1,11 +1,19 @@
 ;;;; package.lisp
 
-(cl:in-package :cl-user)
+(cl:in-package cl-user)
 
-(defpackage :srfi-39
+
+(defpackage "https://github.com/g000001/srfi-39"
   (:use)
-  (:export :make-parameter
-           :parameterize))
+  (:export make-parameter
+           parameterize))
 
-(defpackage :srfi-39.internal
-  (:use :srfi-39 :cl :fiveam :mbe))
+
+(defpackage "https://github.com/g000001/srfi-39#internals"
+  (:use "https://github.com/g000001/srfi-39"
+        cl
+        fiveam
+        mbe))
+
+
+;;; *EOF*

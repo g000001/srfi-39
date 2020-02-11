@@ -1,4 +1,8 @@
-* SRFI 39: Parameter objects
+# SRFI 39 for CL: Parameter objects
+
+* https://srfi.schemers.org/srfi-39
+* License: Unlicense
+
 - Copyright (C) Marc Feeley 2002. All Rights Reserved.
 
 Permission is hereby granted, free of charge, to any person obtaining

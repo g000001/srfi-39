@@ -1,6 +1,6 @@
 ;;;; srfi-39.lisp
 
-(cl:in-package :srfi-39.internal)
+(cl:in-package "https://github.com/g000001/srfi-39#internals")
 
 (declaim (inline null? set-car! set-cdr!))
 
